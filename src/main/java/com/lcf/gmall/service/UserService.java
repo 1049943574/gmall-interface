@@ -14,9 +14,11 @@ public interface UserService {
 	
 	/**
 	 * 按照用户id返回所有的收货地址
-	 * @param userId
+	 * @param 
 	 * @return
 	 */
 	public List<UserAddress> getUserAddressList(String userId);
-
+    public static void main(String[] args) {
+		System.out.println("host");
+	}
 }
